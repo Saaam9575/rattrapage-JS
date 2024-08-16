@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Battle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokémon Battle</h1>
+      <div class="selectors">
+        <select id="pokemon1">
+          <option value="">Choisissez un Pokémon</option>
+        </select>
+        <select id="pokemon2">
+          <option value="">Choisissez un Pokémon</option>
+        </select>
+      </div>
+      <button id="startBattle" class="btn">Démarrer le Combat</button>
+      <button id="resetBattle" class="btn">Réinitialiser</button>
+      <div class="battle-area">
+        <div id="pk1" class="pokemon-box"></div>
+        <div id="hp1" class="hp-status"></div>
+        <div id="pk2" class="pokemon-box"></div>
+        <div id="hp2" class="hp-status"></div>
+      </div>
+      <div id="comment" class="comment-box"></div>
+      <div class="moves">
+        <button id="m0" class="btn-move">Move 1</button>
+        <button id="m1" class="btn-move">Move 2</button>
+        <button id="m2" class="btn-move">Move 3</button>
+        <button id="m3" class="btn-move">Move 4</button>
+      </div>
+    </div>
+    <script src="pokemon-battle.js"></script>
+  </body>
+</html>
